@@ -1,0 +1,200 @@
+body {
+  background-image: url("art.jpg");
+
+  background-color: beige;
+  margin: 0%;
+}
+
+#title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Smooch", cursive;
+  font-size: 2em;
+}
+#title::first-letter {
+  font-size: 1.5em;
+}
+
+#sous-titre{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Smooch", cursive;
+  font-size: 3em;
+}
+#sous-titre::first-letter {
+  font-size: 1.5em;}
+
+
+/*la barre de tendence et plus d'info */
+#tendences{
+  height:50px;
+  width: 500px;
+  margin-left: 60px;
+  padding: 0%;
+  
+}
+
+
+#tendences p{
+  font-family: "Kanit", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+  
+  background-color: white;
+  box-shadow: -10px 10px;
+  border: 3px solid;
+}
+
+
+
+/* bar menu*/
+.barreMenu {
+  background-color: rgb(100, 97, 97);
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+.barreMenu ul {
+  overflow: hidden;
+  list-style: none;
+  padding: 0px;
+}
+
+.barreMenu li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+}
+.barreMenu li:hover {
+  background-color: rgb(58, 57, 57);
+}
+
+.barreMenu a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+
+  list-style: none;
+}
+/* first section of images*/
+.contenu #firstsec div {
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 17px;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  border-radius: 20px;
+}
+
+.contenu #firstsec a{
+  color:black;
+  text-decoration: none;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+.contenu #firstsec img {
+  height: 330px;
+  width: 490px;
+  border-radius: 20px;
+}
+
+
+/* the seconde section of images */
+.contenu #secondesec div {
+  display: inline-block;
+  margin-top: 100px;
+  margin: 9px;
+  margin-left: 17px;
+  margin-bottom: 100px;
+  background-color: white;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+.contenu #secondesec img {
+  height: 330px;
+  width: 490px;
+  border-radius: 20px;
+}
+
+
+.contenu #secondesec a{
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  
+}
+
+/* the third section of images */
+.thirdsec img{
+  margin-top: 100px;
+  height: auto;
+  width: auto;
+  margin-bottom: 100px;
+  
+  
+}
+
+footer {
+  background-color: grey;
+  height: 200px;
+}
+.info1 {
+  overflow: hidden;
+  margin-top: 0%;
+}
+.info1 div {
+  float: left;
+
+  overflow: none;
+  width: 200px;
+  color: white;
+  text-align: center;
+  height: 150px;
+  margin-top: 0%;
+}
+
+.info1 a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+.info1 a:hover {
+  color: black;
+}
+
+.info1 #SocialNetwork {
+  margin-left: 700px;
+}
+
+#SocialNetwork img {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+  padding-top: 35px;
+}
+
+#SocialNetwork a {
+  display: inline-block;
+}
+
+.copyright {
+  margin-right: 100px;
+  margin-left: 20px;
+  position: relative;
+  top: 5px;
+}

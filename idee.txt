@@ -1,0 +1,23 @@
+un site web →  cloth webstore
+
+-un titre (nom du store)(Done)
+-header
+	barre info(done)
+		homme → menu-bar
+		femme → menu-bar
+		accesoires → menu-bar
+
+-body:(Done)
+   image de fond
+			produit1 + produit2
+			produit3 + produit4
+
+			
+-footer (Done)
+	contact
+	leave message
+	aboutUS
+	helps
+ 
+
+

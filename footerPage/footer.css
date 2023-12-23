@@ -1,0 +1,138 @@
+body{
+    
+    margin: 0%;
+    background-image: url('birds.jpg');
+    z-index: 0;
+    
+}
+
+
+
+body  a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Smooch', cursive;
+    font-size: 2em;
+    margin-bottom: 200px;
+    
+}
+h1::first-letter{font-size: 1.5em;}
+
+
+
+
+
+.contact {
+  margin-left: 35%;
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  
+}
+
+
+
+
+
+.contact #email{
+    border: 2px solid  grey;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.contact #password{
+    border: px solid grey;
+    border-radius: 3px;
+    margin-bottom: 30px;
+
+}
+
+.contact #messageT{
+    margin-bottom: 20px;
+}
+.contact #message{
+    border: 3px solid;
+    border-radius: 10px;
+    
+}
+
+
+.bouton{
+
+    margin-left: 150px;
+}
+.bouton #element{
+    margin-right: 30px;
+    font-family: 'Kanit', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid ;
+  box-shadow:3px 5px 5px 0px gray;
+  
+    
+    
+}
+
+/* this is help section*/
+
+.Hcontenu h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Smooch', cursive;
+    font-size: 2em;
+}
+.Hcontenu h1::first-letter{font-size: 1.5em;}
+.Hcontenu  p{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* this is about us section */
+
+.Acontent h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Smooch', cursive;
+    font-size: 2em;
+}
+.Acontent h1::first-letter{font-size: 1.5em;}
+
+.Acontent{
+    height: 50%;
+    width: 900px;
+    border: 2px solid;
+    margin-left: 320px;
+    
+    margin-bottom: 100px;
+    overflow: auto;
+    margin-top: -170px;
+    position: block;
+    z-index: 1;
+    background-color: #FEE600;
+    
+    
+}
+.Acontent pre{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 100px;
+    
+    text-align: center;
+    
+}
+
